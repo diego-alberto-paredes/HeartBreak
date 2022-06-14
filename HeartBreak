@@ -1,1 +1,3 @@
-
+import pandas as pd
+heart_break = pd.read_excel("healthcare-dataset-stroke-data.xls")
+print(heart_break)
